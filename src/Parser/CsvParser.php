@@ -11,6 +11,8 @@ class CsvParser implements ParserInterface
     /**
      * Преобразовать входную строку CSV в ассоциативный массив.
      *
+     * @param string $input - входная строка CSV
+     * @return array - ассоциативный массив данных
      * @throws CsvParseException
      */
     public function parse(string $input): array
