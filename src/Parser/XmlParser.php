@@ -11,6 +11,8 @@ class XmlParser implements ParserInterface
     /**
      * Преобразовать входную строку XML в ассоциативный массив.
      *
+     * @param string $input - входная строка XML
+     * @return array - ассоциативный массив данных
      * @throws XmlParseException
      */
     public function parse(string $input): array
